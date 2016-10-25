@@ -1,0 +1,210 @@
+body {
+	background-color: #e6e6e6;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  border: 1px solid black;
+  border-radius: 0px;
+  height: 60px;
+ }
+
+ nav ul li:hover {
+	background: #FE0000;
+	height: 59px;
+}
+
+ nav ul li a {
+	padding: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+  height:50px;
+  margin-top: -10px;
+}
+
+/*barra de redes sociales*/
+
+.social {
+	margin: 0;
+	padding: 0;
+	-webkit-webkit: border-box;
+	-moz-webkit: border-box;
+	-ms-webkit: border-box;
+	-o-webkit: border-box;
+	webkit: border-box;
+
+}
+
+.rsocial {
+	position: fixed;
+	left: -40px;
+	top:60px;
+	z-index: 2000;
+
+}
+
+.rsocial ul{
+	list-style: none;
+}
+
+.rsocial ul li a {
+	display: inline-block;
+	color: #fff;
+	background: #1a1a1a;
+	padding: 10px 15px;
+	text-decoration: none;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.rsocial ul li a:hover{
+	padding: 10px 30px;
+	background: #FE0000;
+}
+
+
+/*carrusel*/
+
+.item img {
+	width: 1476px;
+}
+
+/*seccion de filtro*/
+
+.filtros h3 {
+	color: #FE0000;
+	text-align: right;
+	margin-top: 50px;
+	font-size: 30px;
+
+}
+
+.filtros ul li {
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	color: #1a1a1a;
+	font-size: 20px;
+	margin-left: -40px;
+}
+
+.filtros ul li:hover {
+	color: #FE0000;
+}
+
+.filtros h3:hover {
+	color: #1a1a1a;
+}
+
+.box {
+	background-color: #1a1a1a;
+	width: 80%;
+	height: 250px;
+	margin-top: 50px;
+	border-radius: 6px;
+}
+
+.box:hover{
+	background-color: #404040;
+}
+
+.box .fa {
+	color: #FE0000;
+	margin-top: 210px;
+	margin-left: 200px;
+}
+
+/*footer*/
+
+.linea {
+	background-color: #1a1a1a;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.footer-menu ul li a {
+	color: #1a1a1a;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.footer-menu ul li {
+	list-style: none;
+	display: inline;
+}
+
+.footer-menu ul {
+	margin-top: 10px;
+  text-align: right;
+}
+
+.footer-menu ul li a:hover {
+	color: #FE0000;
+}
+
+/*pagina de inscripcion*/
+
+.plan h3 {
+	text-align: center;
+}
+
+.plan p {
+	text-align: center;
+}
+.box-mem {
+	background-color: #1a1a1a;
+	width: 80%;
+	height: 250px;
+	margin-top: 80px;
+	border-radius: 6px;
+}
+
+.box-mem:hover{
+	background-color: #404040;
+}
+
+.box-mem h1 {
+	color: #FE0000;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.box-mem p {
+	color: #FE0000;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.membresia {
+	padding-top: 100px;
+}
+
+/*seccion formulario de inscripcion*/
+
+.formulario {
+	margin-top: 50px;
+}
+
+.confirm p{
+	float: right;
+	margin-top: 8px;
+}
+
+.tipo {
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+/*inicio de sesion*/
+
+.inisesion {
+	padding-top: 200px;
+	text-align: center;
+	height: 550px;
+}
